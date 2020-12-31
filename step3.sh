@@ -28,7 +28,7 @@ docker image prune --force
 docker image ls
 
 # Build SPGW-U Image
-docker build --target oai-spgwu-tiny --tag oai-spgwu-tiny:production --file component/oai-spgwu-tiny/docker/Dockerfile.ubuntu18.04 component/oai-spgwu-$
+docker build --target oai-spgwu-tiny --tag oai-spgwu-tiny:production --file component/oai-spgwu-tiny/docker/Dockerfile.ubuntu18.04 component/oai-spgwu-tiny
 docker image prune --force
 docker image ls
 
