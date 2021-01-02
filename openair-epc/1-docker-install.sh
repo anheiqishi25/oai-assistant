@@ -5,3 +5,7 @@ sudo apt-key fingerprint 0EBFCD88
 sudo add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/ $(lsb_release -cs) stable"
 sudo apt-get update
 echo Y | sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo groupadd docker
+sudo gpasswd -a $xxx docker
+sudo gpasswd -a $USER docker
+newgrp docker
