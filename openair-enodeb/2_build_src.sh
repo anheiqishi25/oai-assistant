@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~/oai/openairinterface5g/
 cwd=`pwd`
 source oaienv

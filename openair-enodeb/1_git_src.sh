@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt update && echo Y | sudo apt upgrade
 sudo apt install git
 mkdir ~/oai
