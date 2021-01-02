@@ -7,3 +7,7 @@ cd openairinterface5g
 source oaienv
 cd cmake_targets
 ./build_oai -h
+echo "################################################################################"
+echo "Step 2: 2_build_src.sh"
+echo "################################################################################"
+./2_build_src.sh

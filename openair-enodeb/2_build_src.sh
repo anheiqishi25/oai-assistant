@@ -11,3 +11,8 @@ egrep -lRZ "uhd_images_downloader" $cwd | xargs -o -l sed -i -e "s|uhd_images_do
 
 unset http_proxy
 unset https_proxy
+
+echo "################################################################################"
+echo "Step 3: 3_run.sh"
+echo "################################################################################"
+./3_run.sh
